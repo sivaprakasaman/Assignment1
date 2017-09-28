@@ -31,7 +31,7 @@ public class Profile implements ProfileInterface{
 
     }
 
-    public void setName(String toSet) throws IllegalArgumentExceptions{
+    public void setName(String toSet) throws IllegalArgumentException{
 
         if(toSet!=null){
             user = toSet;
